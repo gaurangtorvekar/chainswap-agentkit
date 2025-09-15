@@ -1,0 +1,31 @@
+{
+  "name": "chainswap-agentkit",
+  "version": "0.1.0",
+  "description": "AgentKit-style toolkit for EVM chains with Across v3 integration, plugins, and chat helpers.",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "yalc:publish": "yalc publish"
+  },
+  "keywords": ["agentkit", "across", "evm", "bridge", "langchain", "viem"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/chainswap-agentkit.git"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "peerDependencies": {
+    "viem": ">=2.0.0",
+    "openai": ">=4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.12.7"
+  }
+}
