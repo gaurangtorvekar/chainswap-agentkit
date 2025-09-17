@@ -6,20 +6,31 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -w -p tsconfig.json",
     "clean": "rm -rf dist",
     "yalc:publish": "yalc publish"
   },
-  "keywords": ["agentkit", "across", "evm", "bridge", "langchain", "viem"],
+  "keywords": [
+    "agentkit",
+    "across",
+    "evm",
+    "bridge",
+    "langchain",
+    "viem"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/chainswap-agentkit.git"
+    "url": "https://github.com/gaurangtorvekar/chainswap-agentkit"
   },
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "peerDependencies": {
     "viem": ">=2.0.0",
     "openai": ">=4.0.0"

@@ -1,8 +1,10 @@
 # Chainswap Agent Kit
 
-![npm version](https://badgen.net/npm/v/chainswap-agentkit)
-![license](https://badgen.net/github/license/g-tor/chainswap-agentkit)
-![build](https://badgen.net/github/checks/g-tor/chainswap-agentkit)
+<!-- ![npm version](https://badgen.net/npm/v/chainswap-agentkit) -->
+
+![license](https://badgen.net/github/license/gaurangtorvekar/chainswap-agentkit)
+
+<!-- ![build](https://badgen.net/github/checks/gaurangtorvekar/chainswap-agentkit) -->
 
 > Build EVM-powered AI agents for cross-chain swaps and other operations.
 
